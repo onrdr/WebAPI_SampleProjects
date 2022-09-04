@@ -6,7 +6,7 @@ using NotesAPI.Models.Entities;
 namespace NotesAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     public class NotesController : Controller
     {
         private readonly NotesDbContext _dbContext;
